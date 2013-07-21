@@ -16,6 +16,10 @@ class Player(object):
     def round_end(*args, **kwargs):
         pass
 
+    def Clone(self):
+        clonedPlayer = Player()
+        return clonedPlayer
+
 
 class Pushover(Player):
     '''Player that always hunts.'''
